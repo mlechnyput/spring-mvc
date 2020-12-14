@@ -9,13 +9,13 @@
 <div>
     <th:block th:each="au : ${cars}">
 
-        <table border="1">
+        <table  border="1">
             <tr>
-                <td><h1 th:text="${au.getCarModel()}"></h1>
+                <td width="170"><h1 th:text="${au.getCarModel()}"></h1>
                 </td>
-                <td><h1 th:text="${au.getSeries()}"></h1>
+                <td width="100"><h1 th:text="${au.getSeries()}"></h1>
                 </td>
-                <td><h1 th:text="${au.getYear()}"></h1>
+                <td width="100"><h1 th:text="${au.getYear()}"></h1>
                 </td>
             </tr>
         </table>
